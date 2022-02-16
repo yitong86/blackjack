@@ -31,11 +31,13 @@ public class Card {
     public  String toString(){
         String strRank = "";
         switch (rank){
+
             case 1 -> strRank = "Ace";
             case 11 -> strRank = "Jack";
             case 12 -> strRank = "Queen";
             case 13 -> strRank = "King";
-            default -> strRank = Integer.toString(rank);
+            default -> strRank = Integer.toString(rank);//rank = 2.rank ="2"
+            //return the String object representing this Integer’s value.
         }
         return "This is the " + strRank + " of " + this.suit;
     }
