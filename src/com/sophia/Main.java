@@ -18,7 +18,7 @@ public class Main {
         //System.out.println(deck.getCards());
         Player sophia = new Player("sophia",100);
         Dealer dealer = new Dealer();
-        //System.out.println("You just drew a : ");
+        // System.out.println("You just drew a : ");
        // sophia.drawCard(deck);
 
         while(true){//outer while true loop is to show, either keep playing ot leave the table
