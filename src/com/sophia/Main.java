@@ -41,7 +41,7 @@ public class Main {
                 while (true){
                     //we need to add a check to see if the user is over 21,then they lose
                     //we also need to add logic for dealer , so they keep hitting until they have 17
-                    System.out.println("Would you, " + sophia.getName() + " like to (1) hit,or (2) stand?");
+                    System.out.println("Would you, " + sophia.getName() + " like to (1) hit, or (2) stand?");
                     int userHitOrStand = input.nextInt();
                     if(userHitOrStand == 1){
                         sophia.drawCard(deck);

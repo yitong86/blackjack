@@ -5,10 +5,11 @@ import java.util.*;
 public class Deck {
     private List<Card> deck ;
     private  final static  int[] RANKS = {1,2,3,4,5,6,7,8,9,10,11,12,13};
-    //List<Card> arrList = new ArrayList<>();
-    //ArrayList<Card> arrList = new ArrayList<>();
+
 
     public Deck() {
+        //List<Card> arrList = new ArrayList<>();
+        //ArrayList<Card> arrList = new ArrayList<>();
         //collections ->List->ArrayLists();
         this.deck = new ArrayList<>();
         for (int i = 0; i < RANKS.length; i++) {//all of our ranks range from 1-13//i=0 Ace
