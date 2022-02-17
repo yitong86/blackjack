@@ -39,8 +39,8 @@ public class Player implements Actor {
         for(int i = 0; i < hand.size();i++){
             if(this.hand.get(i).getRank() > 10){
                 sum +=10;
-            }else if (this.hand.get(i).getRank() == 1){
-                sum +=11;
+            }else if (this.hand.get(i).getRank() == 1){//Ace
+                sum +=11;//we need to add logic for making ether 1 or 11 based on what the user decides
             }else{
                 sum += this.hand.get(i).getRank();
             }

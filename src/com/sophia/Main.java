@@ -46,6 +46,8 @@ public class Main {
                     if(userHitOrStand == 1){
                         sophia.drawCard(deck);
                         sophia.displayHand();
+                        //add in more logic to evaluate the game outcome
+                        //todo:add dealer logic ,method to evaluate game outcome
                     }else if(userHitOrStand == 2){
                         break;
                     }
